@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.header {
+    background: rgb(81, 214, 226);
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header img {
+    height: 40px;
+}
+.header nav {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-left: 20px;
+}
+.header nav a {
+    margin: 0 15px;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+.header .sign-in {
+    float: right;
+    margin-right: 20px;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 100px 50px;
+    color: white;
+}
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.form-container {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(95, 194, 192, 0.255);  
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.form-container input[type="text"] {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.form-container input[type="password"] {
+    font-family: 'Times New Roman', Times, serif;
+    width: 49.7%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #0056b3;
+}
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer img {
+    height: 20px;
+    margin: 0 5px;
+}
+.image-container {
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+.image-container img {
+    width: 300px;
+}
